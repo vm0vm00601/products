@@ -9,3 +9,6 @@ while True:
 	p.append(price)   # p = [name, price] 等於789三行
 	products.append(p)   # products.append([name, price])等於7~10四行
 print(products)
+
+for p in products:
+	print(p[0], '的價格是', p[1])
